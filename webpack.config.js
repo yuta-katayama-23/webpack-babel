@@ -1,6 +1,6 @@
 module.exports = {
 	devtool: 'source-map',
-	target: 'node1.0',
+	target: 'node',
 	entry: {
 		index: './src/index.js'
 	},
