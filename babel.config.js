@@ -1,4 +1,4 @@
 module.exports = {
 	// presets: [['@babel/preset-env', { targets: { chrome: 90 } }]]
-	presets: [['@babel/preset-env', { targets: { node: 4 } }]]
+	presets: [['@babel/preset-env', { targets: { node: 5 } }]]
 };
