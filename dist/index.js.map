@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","mappings":";;;;;AAAA,0BAA0B,KAAK;;AAE/B;AACA","sources":["webpack://webpack/./src/index.js"],"sourcesContent":["const show = (text) => `${text}、さようなら`;\n\nconst text = show('こんにちは');\nconsole.log(text);\n"],"names":[],"sourceRoot":""}
