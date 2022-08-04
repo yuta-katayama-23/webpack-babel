@@ -3,11 +3,9 @@ var __webpack_exports__ = {};
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-var show = function show(text) {
-  return `${text}、さようなら`;
-};
+const show = text => `${text}、さようなら`;
 
-var text = show('こんにちは');
+const text = show('こんにちは');
 console.log(text);
 /******/ })()
 ;
