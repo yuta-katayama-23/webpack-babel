@@ -3,9 +3,11 @@ var __webpack_exports__ = {};
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-const show = text => `${text}、さようなら`;
+var show = function show(text) {
+  return "".concat(text, "\u3001\u3055\u3088\u3046\u306A\u3089");
+};
 
-const text = show('こんにちは');
+var text = show('こんにちは');
 console.log(text);
 /******/ })()
 ;
